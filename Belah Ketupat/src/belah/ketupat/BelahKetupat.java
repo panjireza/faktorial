@@ -27,7 +27,7 @@ public class BelahKetupat {
         
          for (int i=1;i<=n;i++){
              for(int j=n;j>=i;j--){
-                 System.out.print(" ");
+                 System.out.print("0");
              }
              for(int k=1;k<=i;k++){
                  System.out.print("*");
@@ -35,11 +35,11 @@ public class BelahKetupat {
              for (int l=1;l<=i-1;l++){
                  System.out.print("*");
              }
-             System.out.println();
+             System.out.println("");
          }
    for (int i=1;i<=5;i++){
              for(int j=1;j<=i-1;j++){
-                 System.out.print(" ");
+                 System.out.print("0");
              }
              for(int z=5;z>=i;z--){
               System.out.print("*");
